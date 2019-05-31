@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_ttymxc4_onff"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginLeft="50dp"
+        android:onClick="onClick_ttymxc4"
+        android:text="ttymxc4 开"
+        android:textSize="@dimen/textSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height"
+            android:text="发送的字节数(byte)"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/tv_ttymxc4_send"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"
+            android:hint="0"
+            android:textSize="@dimen/textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height"
+            android:text="接收的字节数(byte)"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/tv_ttymxc4_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"
+            android:hint="0"
+            android:textSize="@dimen/textSize" />
+    </LinearLayout>
+
+
+</LinearLayout>
